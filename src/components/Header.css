@@ -1,0 +1,29 @@
+.header {
+    position: absolute;
+    width: 162px;
+    height: 15px;
+    left: 29px;
+    top: 10px;
+    display: flex;
+    gap: 6px;
+  }
+  
+  .header-dashboard-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #4D4482;
+  }
+  
+  .header-separator-text,
+  .header-client-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #4D4482;
+  }
+  

@@ -1,0 +1,111 @@
+.patient-summary {
+    position: absolute;
+    width: 234.95px;
+    height: 94.02px;
+    top: 15px;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .avatar {
+    width: 41.88px;
+    height: 39.92px;
+    border-radius: 100px;
+    background: url('../assets/icons/name_bg.svg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  .avatar-text {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .patient-info {
+    width: 226px;
+    height: 94.02px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .patient-info-top {
+    width: 226px;
+    height: 52.02px;
+  }
+  
+  .patient-name {
+    width: 226px;
+    height: 28.02px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    vertical-align: middle;
+    color: #000000;
+    opacity: 1;
+  }
+  
+  
+  .patient-last-active {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .last-active-label {
+    width: 68px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #6C757D;
+    opacity: 1;
+  }
+  
+  .last-active-date {
+    width: 114px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #6C757D;
+    opacity: 1;
+  }
+  
+  .discharge-btn {
+    width: 143px;
+    height: 36px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background: #845EC0;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  
