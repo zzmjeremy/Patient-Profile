@@ -1,0 +1,9 @@
+.patient-progress-section {
+    width: 750px;
+    height: 402.32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    opacity: 1;
+  }
+  

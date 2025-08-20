@@ -1,0 +1,96 @@
+.hep-summary-card {
+    width: 750px;
+    height: 135px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .hep-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hep-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px 0 20px;
+  }
+  
+  .hep-title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .hep-edited {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C757D;
+  }
+  
+  .hep-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0 20px 16px 20px;
+  }
+  
+  .hep-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .stat-label {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C757D;
+  }
+  
+  .stat-value {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 4px;
+  }
+  
+  .stat-input {
+    width: 80px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 2px 4px;
+    text-align: center;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 50px;
+    background: #DEE2E6;
+  }
+  
+  .hep-edit-btn {
+    width: 145px;
+    height: 100%;
+    background: #D98AD9;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+  

@@ -1,7 +1,73 @@
 .contact-diagnosis {
-    position: absolute;
-    width: 741.01px;
-    height: 121px;
-    right: 0px;
-  }
-  
+  position: absolute;
+  width: 741px;
+  height: 121px;
+  right: 0px;
+  border: 1px solid #DEE2E6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+  box-sizing: border-box;
+}
+
+.cd-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.cd-input {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cd-row {
+  display: flex;
+  gap: 60px;
+}
+
+.cd-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cd-label {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C757D;
+}
+
+.cd-value {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.cd-edit-btn {
+  width: 45px;
+  height: 43px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.edit-icon {
+  width: 25px;
+  height: 24px;
+  position: absolute;
+}
+
